@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "code-generation",
+    "name": "Code Generation & Dev Tools",
+    "description": "AI-powered tools for writing, reviewing, debugging, and deploying code.",
+    "icon": "code"
+  },
+  {
+    "slug": "writing",
+    "name": "Writing & Content Creation",
+    "description": "Tools that help you write, edit, and create compelling content at scale.",
+    "icon": "pencil"
+  },
+  {
+    "slug": "image-generation",
+    "name": "Image Generation & Editing",
+    "description": "Create, edit, and enhance images using generative AI models.",
+    "icon": "image"
+  },
+  {
+    "slug": "video-generation",
+    "name": "Video Generation",
+    "description": "Generate, edit, and transform video content with AI.",
+    "icon": "video"
+  },
+  {
+    "slug": "audio-music",
+    "name": "Audio & Music",
+    "description": "AI tools for music composition, audio editing, voice synthesis, and transcription.",
+    "icon": "music"
+  },
+  {
+    "slug": "chatbots-assistants",
+    "name": "Chatbots & Assistants",
+    "description": "Conversational AI platforms and virtual assistants for customer support and productivity.",
+    "icon": "message-circle"
+  },
+  {
+    "slug": "data-analysis",
+    "name": "Data Analysis & BI",
+    "description": "AI-driven analytics, business intelligence, and data exploration tools.",
+    "icon": "bar-chart"
+  },
+  {
+    "slug": "marketing-seo",
+    "name": "Marketing & SEO",
+    "description": "Optimize campaigns, improve search rankings, and automate marketing workflows with AI.",
+    "icon": "trending-up"
+  },
+  {
+    "slug": "design-ui",
+    "name": "Design & UI",
+    "description": "AI-assisted design tools for UI, graphics, prototyping, and creative workflows.",
+    "icon": "palette"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity & Automation",
+    "description": "Automate repetitive tasks, manage workflows, and boost personal productivity.",
+    "icon": "zap"
+  },
+  {
+    "slug": "research-knowledge",
+    "name": "Research & Knowledge",
+    "description": "AI tools for academic research, knowledge management, and information synthesis.",
+    "icon": "book-open"
+  },
+  {
+    "slug": "education",
+    "name": "Education",
+    "description": "AI-powered learning platforms, tutoring systems, and educational content generators.",
+    "icon": "graduation-cap"
+  },
+  {
+    "slug": "healthcare",
+    "name": "Healthcare",
+    "description": "AI applications in medical imaging, diagnostics, drug discovery, and clinical workflows.",
+    "icon": "heart-pulse"
+  },
+  {
+    "slug": "legal",
+    "name": "Legal",
+    "description": "AI tools for contract review, legal research, compliance, and document automation.",
+    "icon": "scale"
+  },
+  {
+    "slug": "finance",
+    "name": "Finance",
+    "description": "AI-powered tools for financial analysis, trading, risk assessment, and accounting.",
+    "icon": "dollar-sign"
+  }
+]

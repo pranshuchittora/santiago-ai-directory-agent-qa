@@ -1,0 +1,23 @@
+[
+  {
+    "session_id": "fae95cd5-9675-42dc-87c1-9255e8f74cd7",
+    "transcript_path": "/Users/santiagocoronado/.claude/projects/-Users-santiagocoronado--paperclip-instances-default-projects-49bca158-7d55-4dc7-b162-f93953b1eed3-a12676f8-07a0-4c22-ab01-13c68d3bcdc6--default/fae95cd5-9675-42dc-87c1-9255e8f74cd7.jsonl",
+    "cwd": "/Users/santiagocoronado/.paperclip/instances/default/projects/49bca158-7d55-4dc7-b162-f93953b1eed3/a12676f8-07a0-4c22-ab01-13c68d3bcdc6/_default/ai-tools-directory",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "cd /Users/santiagocoronado/.paperclip/instances/default/projects/49bca158-7d55-4dc7-b162-f93953b1eed3/a12676f8-07a0-4c22-ab01-13c68d3bcdc6/_default/ai-tools-directory && npm run build 2>&1 | tail -60",
+      "timeout": 180000,
+      "description": "Run Next.js build"
+    },
+    "tool_response": {
+      "stdout": "zoxide: detected a possible configuration issue.\nPlease ensure that zoxide is initialized right at the end of your shell configuration file (usually ~/.zshrc).\n\nIf the issue persists, consider filing an issue at:\nhttps://github.com/ajeetdsouza/zoxide/issues\n\nDisable this message by setting _ZO_DOCTOR=0.\n\n\n> ai-tools-directory@0.1.0 build\n> next build\n\n\u26a0 Warning: Next.js inferred your workspace root, but it may not be correct.\n We detected multiple lockfiles and selected the directory of /Users/santiagocoronado/package-lock.json as the root directory.\n To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.\n   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.\n Detected additional lockfiles: \n   * /Users/santiagocoronado/.paperclip/instances/default/projects/49bca158-7d55-4dc7-b162-f93953b1eed3/a12676f8-07a0-4c22-ab01-13c68d3bcdc6/_default/ai-tools-directory/package-lock.json\n\n\u25b2 Next.js 16.2.3 (Turbopack)\n\n  Creating an optimized production build ...\n\u2713 Compiled successfully in 2.2s\n  Running TypeScript ...\n  Finished TypeScript in 1611ms ...\n  Collecting page data using 9 workers ...\n  Generating static pages using 9 workers (0/70) ...\n  Generating static pages using 9 workers (17/70) \r\n  Generating static pages using 9 workers (34/70) \r\n  Generating static pages using 9 workers (52/70) \r\n\u2713 Generating static pages using 9 workers (70/70) in 282ms\n  Finalizing page optimization ...\n\nRoute (app)\n\u250c \u0192 /\n\u251c \u25cb /_not-found\n\u251c \u25cb /about\n\u251c \u25cf /categories/[slug]\n\u2502 \u251c /categories/text-generation\n\u2502 \u251c /categories/image-generation\n\u2502 \u251c /categories/code-assistants\n\u2502 \u2514 [+7 more paths]\n\u251c \u25cb /sitemap.xml\n\u251c \u25cb /submit\n\u2514 \u25cf /tools/[slug]\n  \u251c /tools/chatgpt\n  \u251c /tools/claude\n  \u251c /tools/jasper\n  \u2514 [+50 more paths]\n\n\n\u25cb  (Static)   prerendered as static content\n\u25cf  (SSG)      prerendered as static HTML (uses generateStaticParams)\n\u0192  (Dynamic)  server-rendered on demand",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false,
+      "noOutputExpected": false
+    },
+    "tool_use_id": "toolu_01ALhX68jk5zdaDBqnN5WVyy"
+  }
+]
