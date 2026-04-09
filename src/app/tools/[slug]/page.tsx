@@ -131,6 +131,34 @@ export default async function ToolPage({
         </dl>
       </div>
 
+      {tool.features && tool.features.length > 0 && (
+        <div className="border-t border-border pt-6 mb-8">
+          <h2 className="text-sm font-semibold text-muted uppercase tracking-wider mb-3">
+            Key Features
+          </h2>
+          <ul className="list-disc list-inside space-y-1 text-sm text-muted">
+            {tool.features.map((feature, i) => (
+              <li key={i}>{feature}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {tool.useCases && tool.useCases.length > 0 && (
+        <div className="border-t border-border pt-6 mb-8">
+          <h2 className="text-sm font-semibold text-muted uppercase tracking-wider mb-3">
+            Use Cases
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {tool.useCases.map((uc, i) => (
+              <span key={i} className="text-sm px-3 py-1 bg-gray-100 rounded-full">
+                {uc}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
       {related.length > 0 && (
         <section>
           <h2 className="text-lg font-semibold mb-4">

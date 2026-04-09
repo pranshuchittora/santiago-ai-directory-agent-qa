@@ -3038,5 +3038,784 @@
       "Custom domain and hosting"
     ],
     "useCases": ["Small business websites", "Service provider sites", "Quick web presence", "Local business marketing"]
+  },
+  {
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "shortDescription": "AI-powered code editor with deep codebase understanding",
+    "description": "Windsurf (formerly Codeium's editor) is an AI-first IDE that combines code generation, multi-file editing, and terminal integration. It features Cascade, an agentic workflow engine for complex tasks.",
+    "category": "code-generation",
+    "secondaryCategory": "productivity",
+    "pricing": "freemium",
+    "url": "https://windsurf.com",
+    "logoUrl": null,
+    "features": [
+      "Cascade agentic workflow for multi-step tasks",
+      "Deep codebase context and indexing",
+      "Inline code generation and editing",
+      "Terminal command suggestions",
+      "Built on VS Code with full extension support"
+    ],
+    "useCases": ["Full-stack development", "Codebase refactoring", "Agentic coding", "Rapid prototyping"]
+  },
+  {
+    "slug": "github-models",
+    "name": "GitHub Models",
+    "shortDescription": "Playground for testing AI models directly on GitHub",
+    "description": "GitHub Models lets developers explore and compare AI models from OpenAI, Anthropic, Meta, and others directly within GitHub. It provides a free playground and API access for integration.",
+    "category": "code-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://github.com/marketplace/models",
+    "logoUrl": null,
+    "features": [
+      "Free model playground on GitHub",
+      "Access to models from multiple providers",
+      "API access with GitHub token",
+      "Side-by-side model comparison",
+      "Seamless GitHub Codespaces integration"
+    ],
+    "useCases": ["Model evaluation", "AI prototyping", "Developer experimentation", "API integration"]
+  },
+  {
+    "slug": "amazon-q",
+    "name": "Amazon Q Developer",
+    "shortDescription": "AWS AI coding assistant for cloud development",
+    "description": "Amazon Q Developer provides AI coding assistance optimized for AWS services. It generates code, debugs issues, transforms codebases, and helps navigate AWS documentation and best practices.",
+    "category": "code-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://aws.amazon.com/q/developer/",
+    "logoUrl": null,
+    "features": [
+      "AI code generation optimized for AWS",
+      "Code transformation and modernization",
+      "Security vulnerability scanning",
+      "AWS documentation Q&A",
+      "IDE integration for VS Code and JetBrains"
+    ],
+    "useCases": ["AWS development", "Cloud migration", "Security scanning", "Code modernization"]
+  },
+  {
+    "slug": "supermaven",
+    "name": "Supermaven",
+    "shortDescription": "Ultra-fast AI code completion with 1M token context",
+    "description": "Supermaven delivers extremely fast code completions with a 1 million token context window. It learns your codebase patterns and provides suggestions with near-zero latency.",
+    "category": "code-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://supermaven.com",
+    "logoUrl": null,
+    "features": [
+      "Near-zero latency code completions",
+      "1 million token context window",
+      "Learns from your coding patterns",
+      "VS Code, JetBrains, and Neovim support",
+      "Free tier for individual developers"
+    ],
+    "useCases": ["Fast code completion", "Large codebase navigation", "Daily development", "Code pattern learning"]
+  },
+  {
+    "slug": "lovable",
+    "name": "Lovable",
+    "shortDescription": "AI full-stack app builder with Supabase and deployment",
+    "description": "Lovable generates full-stack web applications from natural language, complete with database, authentication, and deployment. It produces production-ready React apps with real backend integrations.",
+    "category": "code-generation",
+    "secondaryCategory": "design-ui",
+    "pricing": "freemium",
+    "url": "https://lovable.dev",
+    "logoUrl": null,
+    "features": [
+      "Full-stack app generation from prompts",
+      "Supabase database and auth integration",
+      "Real-time preview and iteration",
+      "One-click deployment",
+      "GitHub repository sync"
+    ],
+    "useCases": ["MVP building", "Full-stack prototyping", "SaaS scaffolding", "Hackathon projects"]
+  },
+  {
+    "slug": "granola",
+    "name": "Granola",
+    "shortDescription": "AI notepad for meetings that enhances your notes with transcription",
+    "description": "Granola combines your own meeting notes with AI-generated transcription context. It produces rich meeting summaries by merging what you typed with what was said, without being a full meeting bot.",
+    "category": "productivity",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://www.granola.ai",
+    "logoUrl": null,
+    "features": [
+      "AI-enhanced meeting notes from your own typing",
+      "Background transcription without a bot joining",
+      "Structured summaries with action items",
+      "Template customization for different meeting types",
+      "Search across all past meetings"
+    ],
+    "useCases": ["Meeting notes", "1:1 documentation", "Sales calls", "Team meetings"]
+  },
+  {
+    "slug": "superhuman",
+    "name": "Superhuman AI",
+    "shortDescription": "AI-powered email client for blazing-fast inbox management",
+    "description": "Superhuman uses AI to draft replies, summarize email threads, and prioritize your inbox. It helps professionals process email faster with keyboard-driven workflows and smart triage.",
+    "category": "productivity",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://superhuman.com",
+    "logoUrl": null,
+    "features": [
+      "AI email drafting matching your tone",
+      "Thread summarization for long conversations",
+      "Smart inbox prioritization",
+      "Keyboard-driven speed workflow",
+      "Scheduled send and follow-up reminders"
+    ],
+    "useCases": ["Email productivity", "Inbox zero", "Executive communication", "Sales follow-up"]
+  },
+  {
+    "slug": "glean",
+    "name": "Glean",
+    "shortDescription": "Enterprise AI search across all company knowledge",
+    "description": "Glean provides AI-powered search and knowledge discovery across all enterprise apps — Slack, Google Drive, Confluence, Jira, and more. It surfaces the right information to the right person.",
+    "category": "productivity",
+    "secondaryCategory": "research-knowledge",
+    "pricing": "paid",
+    "url": "https://www.glean.com",
+    "logoUrl": null,
+    "features": [
+      "Unified search across all company apps",
+      "AI-powered answers grounded in company data",
+      "Personalized results based on role and team",
+      "100+ enterprise app connectors",
+      "Knowledge graph for organizational context"
+    ],
+    "useCases": ["Enterprise search", "Employee onboarding", "Knowledge management", "Internal Q&A"]
+  },
+  {
+    "slug": "assembled",
+    "name": "Assembled",
+    "shortDescription": "AI workforce management for support teams",
+    "description": "Assembled uses AI to forecast support volume, optimize agent scheduling, and provide real-time performance insights for customer support operations.",
+    "category": "productivity",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.assembled.com",
+    "logoUrl": null,
+    "features": [
+      "AI-powered support volume forecasting",
+      "Automated agent scheduling optimization",
+      "Real-time queue management",
+      "Performance analytics and reporting",
+      "Integration with Zendesk, Salesforce, Intercom"
+    ],
+    "useCases": ["Support team scheduling", "Workforce planning", "Queue optimization", "Capacity management"]
+  },
+  {
+    "slug": "stability-audio",
+    "name": "Stable Audio",
+    "shortDescription": "AI music and sound effect generation by Stability AI",
+    "description": "Stable Audio generates music tracks and sound effects from text prompts. It produces high-quality, variable-length audio suitable for content creation and media production.",
+    "category": "audio-music",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://www.stableaudio.com",
+    "logoUrl": null,
+    "features": [
+      "Text-to-music generation",
+      "Sound effect creation from descriptions",
+      "Variable length output up to 3 minutes",
+      "High-quality 44.1kHz stereo audio",
+      "Commercial use licensing available"
+    ],
+    "useCases": ["Background music", "Sound effects", "Content creation", "Game audio"]
+  },
+  {
+    "slug": "resemble-ai",
+    "name": "Resemble AI",
+    "shortDescription": "AI voice generator with real-time cloning and deepfake detection",
+    "description": "Resemble AI provides voice cloning, text-to-speech, and speech-to-speech conversion. It also offers deepfake detection to identify AI-generated audio, serving both creation and safety needs.",
+    "category": "audio-music",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.resemble.ai",
+    "logoUrl": null,
+    "features": [
+      "Real-time voice cloning",
+      "Neural text-to-speech in 60+ languages",
+      "Speech-to-speech voice conversion",
+      "AI deepfake audio detection",
+      "On-premise deployment option"
+    ],
+    "useCases": ["Voice cloning", "Localization", "Audio content creation", "Deepfake detection"]
+  },
+  {
+    "slug": "lumen5",
+    "name": "Lumen5",
+    "shortDescription": "AI video creation platform that turns blog posts into videos",
+    "description": "Lumen5 transforms text content like blog posts and articles into engaging videos using AI. It automatically selects visuals, creates layouts, and adds music for marketing teams.",
+    "category": "video-generation",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "freemium",
+    "url": "https://lumen5.com",
+    "logoUrl": null,
+    "features": [
+      "Blog post to video conversion",
+      "AI-powered visual and layout selection",
+      "Brand kit with custom fonts and colors",
+      "Stock media library integration",
+      "Social media format templates"
+    ],
+    "useCases": ["Content repurposing", "Social media videos", "Marketing content", "Blog promotion"]
+  },
+  {
+    "slug": "fliki",
+    "name": "Fliki",
+    "shortDescription": "AI video creator with realistic voiceovers and avatars",
+    "description": "Fliki converts text and ideas into videos with AI voiceovers, stock footage, and AI avatars. It supports 75+ languages and produces content for social media, marketing, and education.",
+    "category": "video-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://fliki.ai",
+    "logoUrl": null,
+    "features": [
+      "Text-to-video with AI voiceover",
+      "2000+ realistic AI voices in 75+ languages",
+      "AI avatar presenters",
+      "Stock media library",
+      "Blog-to-video conversion"
+    ],
+    "useCases": ["Social media videos", "Educational content", "Product demos", "Multilingual content"]
+  },
+  {
+    "slug": "stability-video",
+    "name": "Stable Video Diffusion",
+    "shortDescription": "Open-source video generation model by Stability AI",
+    "description": "Stable Video Diffusion is Stability AI's open-source model for generating short video clips from images. It produces smooth, high-quality motion and is available for local deployment and API access.",
+    "category": "video-generation",
+    "secondaryCategory": null,
+    "pricing": "open-source",
+    "url": "https://stability.ai/stable-video",
+    "logoUrl": null,
+    "features": [
+      "Image-to-video generation",
+      "Open-source and locally runnable",
+      "Smooth motion synthesis",
+      "Multiple frame rate options",
+      "Community fine-tuning ecosystem"
+    ],
+    "useCases": ["Image animation", "Creative video", "Research", "Product visualization"]
+  },
+  {
+    "slug": "spline-ai",
+    "name": "Spline AI",
+    "shortDescription": "AI-powered 3D design tool for web and product design",
+    "description": "Spline AI generates 3D objects, scenes, and animations from text prompts. It makes 3D design accessible for web designers and developers without traditional 3D modeling skills.",
+    "category": "design-ui",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://spline.design",
+    "logoUrl": null,
+    "features": [
+      "Text-to-3D object generation",
+      "Real-time 3D collaboration",
+      "Interactive 3D for web embedding",
+      "Animation and interaction tools",
+      "Export for web, iOS, and React"
+    ],
+    "useCases": ["3D web design", "Product mockups", "Interactive websites", "Game prototyping"]
+  },
+  {
+    "slug": "relume",
+    "name": "Relume",
+    "shortDescription": "AI-powered website wireframe and sitemap generator",
+    "description": "Relume generates website sitemaps and wireframes from a text description of your business. It exports directly to Figma and Webflow, accelerating the web design process.",
+    "category": "design-ui",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.relume.io",
+    "logoUrl": null,
+    "features": [
+      "AI sitemap generation from business description",
+      "Wireframe creation with component library",
+      "Direct Figma and Webflow export",
+      "1000+ component library",
+      "Copy generation for each section"
+    ],
+    "useCases": ["Website planning", "Wireframing", "Agency workflows", "Client presentations"]
+  },
+  {
+    "slug": "frase",
+    "name": "Frase",
+    "shortDescription": "AI SEO content research and optimization platform",
+    "description": "Frase helps content teams research, write, and optimize SEO content. It analyzes top search results to build content briefs and scores your content against competitors.",
+    "category": "marketing-seo",
+    "secondaryCategory": "writing",
+    "pricing": "paid",
+    "url": "https://www.frase.io",
+    "logoUrl": null,
+    "features": [
+      "AI-powered content brief generation",
+      "SERP analysis and competitor insights",
+      "Content optimization scoring",
+      "AI writing assistant for SEO content",
+      "Answer engine for internal knowledge"
+    ],
+    "useCases": ["SEO content creation", "Content briefs", "Competitor analysis", "Content optimization"]
+  },
+  {
+    "slug": "pictory",
+    "name": "Pictory",
+    "shortDescription": "AI video creation from scripts, articles, and long-form content",
+    "description": "Pictory automatically turns scripts, blog posts, and long-form content into short branded videos. It adds stock footage, captions, and music for social media and marketing use.",
+    "category": "video-generation",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "paid",
+    "url": "https://pictory.ai",
+    "logoUrl": null,
+    "features": [
+      "Script and article to video conversion",
+      "Automatic scene and footage selection",
+      "AI voiceover generation",
+      "Brand kit with logos and colors",
+      "Subtitle and caption generation"
+    ],
+    "useCases": ["Content marketing", "Social media clips", "Sales videos", "Blog promotion"]
+  },
+  {
+    "slug": "docusign-iai",
+    "name": "Docusign IAM",
+    "shortDescription": "AI-powered intelligent agreement management platform",
+    "description": "Docusign's Intelligent Agreement Management uses AI to analyze, manage, and extract insights from contracts. It automates agreement workflows and identifies risks across your entire contract portfolio.",
+    "category": "legal",
+    "secondaryCategory": "productivity",
+    "pricing": "paid",
+    "url": "https://www.docusign.com/products/iam",
+    "logoUrl": null,
+    "features": [
+      "AI contract analysis and risk identification",
+      "Automated agreement workflows",
+      "Key term extraction across portfolios",
+      "Integration with CRM and ERP systems",
+      "eSignature with AI-powered review"
+    ],
+    "useCases": ["Contract management", "Agreement analysis", "Risk identification", "Procurement workflows"]
+  },
+  {
+    "slug": "clio-ai",
+    "name": "Clio Duo",
+    "shortDescription": "AI legal assistant embedded in Clio practice management",
+    "description": "Clio Duo is an AI assistant integrated into Clio's legal practice management software. It helps lawyers with drafting, research, time entry, billing, and client communication.",
+    "category": "legal",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.clio.com/features/clio-duo/",
+    "logoUrl": null,
+    "features": [
+      "AI-powered legal document drafting",
+      "Smart time entry suggestions",
+      "Client communication assistance",
+      "Matter summary generation",
+      "Integrated with Clio Manage and Grow"
+    ],
+    "useCases": ["Legal document drafting", "Time tracking", "Client management", "Practice management"]
+  },
+  {
+    "slug": "socratic",
+    "name": "Socratic by Google",
+    "shortDescription": "AI homework helper that explains concepts with visuals",
+    "description": "Socratic uses Google AI to help students understand homework problems. It provides step-by-step explanations, relevant videos, and visual aids across math, science, and humanities.",
+    "category": "education",
+    "secondaryCategory": null,
+    "pricing": "free",
+    "url": "https://socratic.org",
+    "logoUrl": null,
+    "features": [
+      "Camera-based problem recognition",
+      "Step-by-step explanations with visuals",
+      "Curated educational video suggestions",
+      "Covers math, science, literature, and more",
+      "Powered by Google AI and Search"
+    ],
+    "useCases": ["Homework help", "Concept understanding", "Test preparation", "Self-study"]
+  },
+  {
+    "slug": "century-tech",
+    "name": "Century Tech",
+    "shortDescription": "AI-powered adaptive learning platform for schools",
+    "description": "Century Tech uses AI to create personalized learning paths for students. It adapts content difficulty in real time, identifies knowledge gaps, and provides teachers with actionable analytics.",
+    "category": "education",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.century.tech",
+    "logoUrl": null,
+    "features": [
+      "Adaptive AI learning paths",
+      "Real-time knowledge gap detection",
+      "Teacher analytics dashboard",
+      "Curriculum-aligned content library",
+      "Multi-subject support"
+    ],
+    "useCases": ["Personalized learning", "Classroom instruction", "Remedial education", "Progress tracking"]
+  },
+  {
+    "slug": "cognito",
+    "name": "Cognito",
+    "shortDescription": "AI-powered GCSE and A-Level revision platform",
+    "description": "Cognito provides AI-driven revision for UK secondary school students. It generates personalized study plans, tracks progress, and uses spaced repetition for effective exam preparation.",
+    "category": "education",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://cognitolearning.org",
+    "logoUrl": null,
+    "features": [
+      "AI-personalized revision plans",
+      "Spaced repetition study system",
+      "Video lessons and quizzes",
+      "Progress tracking per topic",
+      "GCSE and A-Level curriculum coverage"
+    ],
+    "useCases": ["GCSE revision", "A-Level preparation", "Self-directed study", "Exam preparation"]
+  },
+  {
+    "slug": "aidoc",
+    "name": "Aidoc",
+    "shortDescription": "AI radiology platform for detecting critical findings in scans",
+    "description": "Aidoc uses deep learning to flag critical findings in medical imaging. It helps radiologists prioritize urgent cases by detecting conditions like PE, stroke, and fractures in CT scans.",
+    "category": "healthcare",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.aidoc.com",
+    "logoUrl": null,
+    "features": [
+      "AI detection of critical conditions in CT scans",
+      "Worklist prioritization for radiologists",
+      "FDA-cleared algorithms for multiple conditions",
+      "Integration with PACS and hospital systems",
+      "Always-on background analysis"
+    ],
+    "useCases": ["Radiology triage", "Critical finding detection", "Workflow prioritization", "Emergency imaging"]
+  },
+  {
+    "slug": "tempus",
+    "name": "Tempus AI",
+    "shortDescription": "AI platform for precision medicine and genomic analysis",
+    "description": "Tempus uses AI to analyze clinical and molecular data for precision medicine. It helps oncologists match patients with targeted therapies and clinical trials based on genomic profiles.",
+    "category": "healthcare",
+    "secondaryCategory": "data-analysis",
+    "pricing": "paid",
+    "url": "https://www.tempus.com",
+    "logoUrl": null,
+    "features": [
+      "Genomic sequencing and analysis",
+      "AI-powered therapy matching",
+      "Clinical trial identification",
+      "Real-world data analytics",
+      "Multi-cancer type support"
+    ],
+    "useCases": ["Precision oncology", "Clinical trial matching", "Genomic profiling", "Treatment planning"]
+  },
+  {
+    "slug": "butterfly-network",
+    "name": "Butterfly iQ+",
+    "shortDescription": "AI-powered handheld ultrasound with automated guidance",
+    "description": "Butterfly iQ+ is a handheld ultrasound device enhanced with AI that guides users through scans, automatically identifies anatomy, and provides measurement assistance at the point of care.",
+    "category": "healthcare",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.butterflynetwork.com",
+    "logoUrl": null,
+    "features": [
+      "AI-guided scanning assistance",
+      "Automated anatomy identification",
+      "Single-probe whole-body imaging",
+      "Cloud storage and telemedicine",
+      "Quality assessment and measurements"
+    ],
+    "useCases": ["Point-of-care ultrasound", "Emergency medicine", "Primary care", "Rural healthcare"]
+  },
+  {
+    "slug": "planful",
+    "name": "Planful",
+    "shortDescription": "AI-powered financial planning and analysis platform",
+    "description": "Planful uses AI to accelerate financial planning, budgeting, and forecasting. It automates variance analysis, detects anomalies, and helps FP&A teams produce insights faster.",
+    "category": "finance",
+    "secondaryCategory": "data-analysis",
+    "pricing": "paid",
+    "url": "https://planful.com",
+    "logoUrl": null,
+    "features": [
+      "AI-powered financial forecasting",
+      "Automated variance analysis",
+      "Anomaly detection in financial data",
+      "Scenario planning and modeling",
+      "Consolidated reporting dashboards"
+    ],
+    "useCases": ["Financial planning", "Budgeting", "Forecasting", "Variance analysis"]
+  },
+  {
+    "slug": "brex-ai",
+    "name": "Brex AI",
+    "shortDescription": "AI-powered corporate spend management and compliance",
+    "description": "Brex uses AI to automate expense categorization, enforce spending policies, and provide real-time visibility into corporate spend. It helps finance teams manage budgets more effectively.",
+    "category": "finance",
+    "secondaryCategory": "productivity",
+    "pricing": "paid",
+    "url": "https://www.brex.com",
+    "logoUrl": null,
+    "features": [
+      "AI expense categorization and coding",
+      "Automated policy enforcement",
+      "Real-time spend analytics",
+      "Receipt matching and verification",
+      "Budget tracking and alerts"
+    ],
+    "useCases": ["Expense management", "Corporate cards", "Budget management", "Financial compliance"]
+  },
+  {
+    "slug": "viso-trust",
+    "name": "Viso Trust",
+    "shortDescription": "AI-powered third-party risk assessment platform",
+    "description": "Viso Trust automates vendor risk assessments using AI. It analyzes security questionnaires, certifications, and public data to speed up third-party due diligence.",
+    "category": "finance",
+    "secondaryCategory": "legal",
+    "pricing": "paid",
+    "url": "https://www.visotrust.com",
+    "logoUrl": null,
+    "features": [
+      "AI-automated vendor risk assessments",
+      "Security questionnaire analysis",
+      "Continuous vendor monitoring",
+      "Risk scoring and benchmarking",
+      "Integration with GRC platforms"
+    ],
+    "useCases": ["Vendor risk management", "Security assessments", "Compliance", "Third-party due diligence"]
+  },
+  {
+    "slug": "canva-docs",
+    "name": "Canva Docs",
+    "shortDescription": "AI-powered visual document creation within Canva",
+    "description": "Canva Docs combines document creation with Canva's design capabilities and Magic Write AI. It produces visually rich documents, proposals, and reports with AI-assisted content generation.",
+    "category": "writing",
+    "secondaryCategory": "design-ui",
+    "pricing": "freemium",
+    "url": "https://www.canva.com/docs/",
+    "logoUrl": null,
+    "features": [
+      "AI-powered Magic Write content generation",
+      "Visual document design with Canva elements",
+      "Template library for proposals and reports",
+      "Real-time collaboration",
+      "Convert docs to presentations or websites"
+    ],
+    "useCases": ["Proposals", "Reports", "Team documents", "Visual documentation"]
+  },
+  {
+    "slug": "typeface",
+    "name": "Typeface",
+    "shortDescription": "Enterprise AI content generation with brand safety",
+    "description": "Typeface generates on-brand marketing content at scale using enterprise AI. It ensures brand consistency across text, images, and video while maintaining compliance and governance controls.",
+    "category": "writing",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "paid",
+    "url": "https://www.typeface.ai",
+    "logoUrl": null,
+    "features": [
+      "Brand-safe content generation",
+      "Multi-format output (text, image, video)",
+      "Enterprise governance and compliance",
+      "Custom AI trained on brand guidelines",
+      "Integration with marketing platforms"
+    ],
+    "useCases": ["Enterprise content", "Brand marketing", "Campaign creation", "Content localization"]
+  },
+  {
+    "slug": "writerly",
+    "name": "Writerly",
+    "shortDescription": "AI content platform for teams with workflow automation",
+    "description": "Writerly provides AI content generation with team workflows, brand voice training, and content templates. It helps marketing teams maintain consistency while scaling content production.",
+    "category": "writing",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://writerly.ai",
+    "logoUrl": null,
+    "features": [
+      "AI content generation with brand voice",
+      "Team workflow and approval processes",
+      "100+ content templates",
+      "Multi-language support",
+      "API access for integrations"
+    ],
+    "useCases": ["Marketing content", "Team content workflows", "Blog writing", "Social media copy"]
+  },
+  {
+    "slug": "krea",
+    "name": "Krea AI",
+    "shortDescription": "Real-time AI image generation and creative enhancement",
+    "description": "Krea AI provides real-time image generation that updates as you draw or type. It enables creative exploration with instant visual feedback and includes upscaling, enhancement, and video tools.",
+    "category": "image-generation",
+    "secondaryCategory": "design-ui",
+    "pricing": "freemium",
+    "url": "https://www.krea.ai",
+    "logoUrl": null,
+    "features": [
+      "Real-time image generation while you draw",
+      "AI image upscaling and enhancement",
+      "Style transfer and image transformation",
+      "Video generation capabilities",
+      "Pattern and texture generation"
+    ],
+    "useCases": ["Creative exploration", "Real-time design", "Image enhancement", "Concept art"]
+  },
+  {
+    "slug": "getimg",
+    "name": "getimg.ai",
+    "shortDescription": "AI image generation suite with editing and model training",
+    "description": "getimg.ai offers a comprehensive suite of AI image tools including text-to-image generation, inpainting, outpainting, and custom model fine-tuning for personalized image creation.",
+    "category": "image-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://getimg.ai",
+    "logoUrl": null,
+    "features": [
+      "Multiple AI image generation models",
+      "Inpainting and outpainting tools",
+      "Custom model training (DreamBooth)",
+      "Real-time AI image editing",
+      "API access for developers"
+    ],
+    "useCases": ["Custom image generation", "Photo editing", "Model fine-tuning", "Batch generation"]
+  },
+  {
+    "slug": "playground-ai",
+    "name": "Playground AI",
+    "shortDescription": "Free AI image generation and editing platform",
+    "description": "Playground AI offers a generous free tier for AI image generation with multiple models. It combines image creation with canvas editing tools for a complete creative workflow.",
+    "category": "image-generation",
+    "secondaryCategory": null,
+    "pricing": "freemium",
+    "url": "https://playground.com",
+    "logoUrl": null,
+    "features": [
+      "Generous free image generation quota",
+      "Multiple model selection",
+      "Canvas editing with AI tools",
+      "Image-to-image transformation",
+      "Community gallery and sharing"
+    ],
+    "useCases": ["Free image generation", "Creative projects", "Social media assets", "Art exploration"]
+  },
+  {
+    "slug": "tidio",
+    "name": "Tidio",
+    "shortDescription": "AI customer service chatbot for e-commerce and SMBs",
+    "description": "Tidio provides AI chatbots that handle customer service for e-commerce stores and small businesses. Lyro AI resolves up to 70% of customer queries automatically using your FAQ and help content.",
+    "category": "chatbots-assistants",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "freemium",
+    "url": "https://www.tidio.com",
+    "logoUrl": null,
+    "features": [
+      "Lyro AI for automated customer support",
+      "Visual chatbot flow builder",
+      "Live chat with AI suggestions",
+      "Shopify and WooCommerce integration",
+      "Multi-channel (web, email, Messenger)"
+    ],
+    "useCases": ["E-commerce support", "Lead generation", "FAQ automation", "Small business customer service"]
+  },
+  {
+    "slug": "drift",
+    "name": "Drift (Salesloft)",
+    "shortDescription": "AI-powered conversational marketing and sales platform",
+    "description": "Drift uses AI chatbots to engage website visitors, qualify leads, and book meetings in real time. It routes conversations to the right sales reps and accelerates the buyer journey.",
+    "category": "chatbots-assistants",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "paid",
+    "url": "https://www.salesloft.com/drift",
+    "logoUrl": null,
+    "features": [
+      "AI chatbot for lead qualification",
+      "Real-time meeting scheduling",
+      "Intent-based conversation routing",
+      "Playbooks for personalized engagement",
+      "Revenue attribution analytics"
+    ],
+    "useCases": ["Lead qualification", "Meeting booking", "Conversational marketing", "Sales acceleration"]
+  },
+  {
+    "slug": "ada-cx",
+    "name": "Ada",
+    "shortDescription": "AI-powered customer service automation platform",
+    "description": "Ada's AI agent resolves customer inquiries across channels by understanding intent and taking action. It integrates with business systems to handle complex workflows, not just answer questions.",
+    "category": "chatbots-assistants",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.ada.cx",
+    "logoUrl": null,
+    "features": [
+      "AI agent that resolves (not just deflects) queries",
+      "Multi-channel support (web, SMS, social, email)",
+      "Action-oriented with system integrations",
+      "Multi-language support (50+ languages)",
+      "Analytics and continuous improvement"
+    ],
+    "useCases": ["Customer service automation", "E-commerce support", "Telecom support", "Financial services"]
+  },
+  {
+    "slug": "jasper-chat",
+    "name": "Jasper Chat",
+    "shortDescription": "AI marketing chat assistant with brand context",
+    "description": "Jasper Chat provides a conversational interface for marketing teams to brainstorm, draft, and refine content. It uses your brand voice and marketing context for relevant suggestions.",
+    "category": "chatbots-assistants",
+    "secondaryCategory": "marketing-seo",
+    "pricing": "paid",
+    "url": "https://www.jasper.ai/chat",
+    "logoUrl": null,
+    "features": [
+      "Marketing-focused AI chat",
+      "Brand voice and context awareness",
+      "Campaign ideation and brainstorming",
+      "Content drafting and refinement",
+      "Team knowledge base integration"
+    ],
+    "useCases": ["Marketing brainstorming", "Content ideation", "Campaign planning", "Copy generation"]
+  },
+  {
+    "slug": "sisense",
+    "name": "Sisense",
+    "shortDescription": "AI-powered embedded analytics and BI platform",
+    "description": "Sisense embeds AI-powered analytics directly into your products and workflows. It transforms complex data into actionable insights with natural language querying and automated reporting.",
+    "category": "data-analysis",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.sisense.com",
+    "logoUrl": null,
+    "features": [
+      "Embedded analytics for products",
+      "Natural language data querying",
+      "AI-powered insight discovery",
+      "Custom dashboard building",
+      "White-label analytics for SaaS"
+    ],
+    "useCases": ["Embedded BI", "Product analytics", "SaaS dashboards", "Custom reporting"]
+  },
+  {
+    "slug": "thoughtspot",
+    "name": "ThoughtSpot",
+    "shortDescription": "AI-powered analytics platform with natural language search",
+    "description": "ThoughtSpot lets anyone search and analyze data using natural language. Its AI engine generates visualizations, identifies trends, and delivers insights without requiring SQL or BI expertise.",
+    "category": "data-analysis",
+    "secondaryCategory": null,
+    "pricing": "paid",
+    "url": "https://www.thoughtspot.com",
+    "logoUrl": null,
+    "features": [
+      "Natural language data search (SpotIQ)",
+      "AI-generated insights and anomalies",
+      "Self-service analytics for business users",
+      "Embeddable analytics components",
+      "Cloud data warehouse integration"
+    ],
+    "useCases": ["Self-service BI", "Data exploration", "Executive dashboards", "Embedded analytics"]
   }
 ]
