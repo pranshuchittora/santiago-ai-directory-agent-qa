@@ -1,30 +1,180 @@
 @import "tailwindcss";
 
+/* Light theme (default) */
 :root {
   --background: #ffffff;
   --foreground: #111827;
   --muted: #6b7280;
+  --muted-light: #9ca3af;
   --border: #e5e7eb;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
+  --accent-light: #dbeafe;
   --card-bg: #f9fafb;
   --card-hover: #f3f4f6;
+  --card-border: #e5e7eb;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a;
+    --foreground: #f1f5f9;
+    --muted: #94a3b8;
+    --muted-light: #cbd5e1;
+    --border: #1e293b;
+    --accent: #3b82f6;
+    --accent-hover: #60a5fa;
+    --accent-light: #1e3a8a;
+    --card-bg: #1e293b;
+    --card-hover: #334155;
+    --card-border: #334155;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
+  --color-muted-light: var(--muted-light);
   --color-border: var(--border);
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
   --color-card-bg: var(--card-bg);
   --color-card-hover: var(--card-hover);
+  --color-card-border: var(--card-border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+  /* Performance: reduce paint during scroll */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  transition: background-color 0.2s, color 0.2s;
+  /* Prevent layout shift during font loading */
+  font-size-adjust: 100%;
+  text-rendering: optimizeSpeed;
+}
+
+/* Font-loading optimization for next/font */
+.font-sans, .font-mono {
+  font-display: swap;
+}
+
+/* Phase 3: Animations & Micro-interactions */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -1000px 0;
+  }
+  to {
+    background-position: 1000px 0;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.4s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+
+  /* Staggered animation delays for card grid */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animate-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  /* Smooth button scale on interaction */
+  .btn-interactive {
+    @apply transition-transform duration-150;
+  }
+
+  .btn-interactive:active {
+    @apply scale-95;
+  }
+
+  /* Focus ring animations */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-accent/50 focus:ring-offset-2 focus:ring-offset-background;
+  }
+
+  /* Smooth transitions for filter chips */
+  .chip-interactive {
+    @apply transition-all duration-200;
+  }
+
+  .chip-interactive:hover {
+    @apply scale-105;
+  }
+
+  /* Results container fade-in */
+  .results-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
 }

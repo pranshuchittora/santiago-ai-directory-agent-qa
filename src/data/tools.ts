@@ -65,3 +65,60 @@ export function searchTools(query: string): Tool[] {
       t.category.toLowerCase().includes(q)
   );
 }
+
+export type SortOption = "name" | "category" | "featured" | "newest";
+
+export function sortTools(tools: Tool[], sortBy: SortOption): Tool[] {
+  const sorted = [...tools];
+  switch (sortBy) {
+    case "name":
+      sorted.sort((a, b) => a.name.localeCompare(b.name));
+      break;
+    case "category":
+      sorted.sort((a, b) => a.category.localeCompare(b.category));
+      break;
+    case "featured":
+      sorted.sort((a, b) => {
+        if (a.featured === b.featured) return 0;
+        return a.featured ? -1 : 1;
+      });
+      break;
+    case "newest":
+    default:
+      // Default order from JSON (treated as newest)
+      break;
+  }
+  return sorted;
+}
+
+export interface PaginationInfo {
+  items: Tool[];
+  total: number;
+  page: number;
+  pageSize: number;
+  totalPages: number;
+  hasNextPage: boolean;
+  hasPrevPage: boolean;
+}
+
+export function paginateTools(
+  tools: Tool[],
+  page: number = 1,
+  pageSize: number = 12
+): PaginationInfo {
+  const total = tools.length;
+  const totalPages = Math.ceil(total / pageSize);
+  const normalizedPage = Math.max(1, Math.min(page, totalPages));
+  const startIndex = (normalizedPage - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+
+  return {
+    items: tools.slice(startIndex, endIndex),
+    total,
+    page: normalizedPage,
+    pageSize,
+    totalPages,
+    hasNextPage: normalizedPage < totalPages,
+    hasPrevPage: normalizedPage > 1,
+  };
+}
