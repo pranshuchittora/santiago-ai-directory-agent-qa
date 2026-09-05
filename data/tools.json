@@ -3817,5 +3817,27 @@
       "Cloud data warehouse integration"
     ],
     "useCases": ["Self-service BI", "Data exploration", "Executive dashboards", "Embedded analytics"]
+  },
+  {
+    "slug": "agent-qa",
+    "name": "Agent QA",
+    "shortDescription": "Natural-language web/mobile tests via the agent-qa CLI; no software fee for permitted use, provider costs separate.",
+    "description": "Agent QA is a TypeScript QA harness for writing and running web, Android, and iOS application tests in natural language. It offers a CLI, local dashboard, MCP server, and Agent Skills, with execution memory, recovery from UI changes, and run artifacts for failure triage. Its source is available under FSL-1.1-ALv2; each release converts to Apache-2.0 after two years. There is no software fee for permitted use, while configured model, browser, and device-provider costs are separate.",
+    "category": "code-generation",
+    "pricing": "free",
+    "url": "https://github.com/vostride/agent-qa",
+    "logoUrl": null,
+    "features": [
+      "Natural-language web, Android, and iOS tests",
+      "CLI, dashboard, MCP server, and Agent Skills",
+      "Execution memory and recovery from UI changes",
+      "Run artifacts and failure triage"
+    ],
+    "useCases": [
+      "Application regression testing",
+      "Testing agent-built applications",
+      "Android testing",
+      "iOS testing"
+    ]
   }
 ]

@@ -47,7 +47,7 @@
 
 | Technology | Rationale |
 |---|---|
-| **JSON files** (`data/tools.json`, `data/categories.json`) | Simple, version-controlled data store for 201 tools and 15 categories. No database needed for the MVP — data is imported at build time. |
+| **JSON files** (`data/tools.json`, `data/categories.json`) | Simple, version-controlled data store for 202 tools and 15 categories. No database needed for the MVP — data is imported at build time. |
 
 ## Version Requirements
 

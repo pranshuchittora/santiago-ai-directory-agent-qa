@@ -72,7 +72,7 @@ All routes use Next.js App Router (`src/app/`):
 | `/submit`              | Static                | Tool submission placeholder                                  |
 | `/sitemap.xml`         | Generated             | SEO sitemap covering all tools and categories                |
 
-Static pages use `generateStaticParams()` to pre-render all 201 tool pages and 15 category pages at build time (223 total static pages).
+Static pages use `generateStaticParams()` to pre-render all 202 tool pages and 15 category pages at build time (224 total static pages).
 
 ## Client vs Server Components
 
